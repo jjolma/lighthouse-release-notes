@@ -11,14 +11,14 @@
 
 == Example output
   State: resolved
-  Sign in link is misaligned in IE7 [#1001]
-  Add "merge accounts" featur [#1002]
+  - Sign in link is misaligned in IE7 [#1001]
+  - Add "merge accounts" featur [#1002]
 
   State: open
-  Upload picture broken [#1004]
+  - Upload picture broken [#1004]
 
   State: invalid
-  Can't log in from a Newton [#1003]
+  - Can't log in from a Newton [#1003]
 
 
 == Copyright

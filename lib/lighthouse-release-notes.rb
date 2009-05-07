@@ -16,12 +16,12 @@ class LighthouseReleaseNotes
         i = i + 1
       end
       prev_state = nil
-      tickets.flatten.sort {|a,b| a.state <=> b.state }.each do |f|
+      tickets.flatten.sort {|a,b| b.state <=> a.state }.each do |f|
         if f.state != prev_state
           puts ""
           puts "State: #{f.state}"
         end
-        print f.title; print ' [#'; print f.number; print ']'; puts ''
+        puts "- #{f.title} [##{f.number}]"
         prev_state = f.state
       end
       nil
