@@ -16,7 +16,7 @@ Release note generator for Lighthouse milestones
                                   :milestone => '5/7')
 
 == Example output
-  puts "Release notes for #{5/7}"  
+  Release notes for #{5/7}
 
   Resolved
   - Sign in link is misaligned in IE7 [#1001]
