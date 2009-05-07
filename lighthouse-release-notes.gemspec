@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{lighthouse-release-notes}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Jolma"]
@@ -14,9 +14,16 @@ Gem::Specification.new do |s|
      "README.rdoc"
   ]
   s.files = [
-    "README",
-    "VERSION",
-    "lib/lighthouse-release-notes.rb"             
+    ".gitignore",
+     "LICENSE",
+     "README",
+     "README.rdoc",
+     "Rakefile",
+     "VERSION",
+     "lib/lighthouse-release-notes.rb",
+     "lighthouse-release-notes.gemspec",
+     "test/lighthouse-release-notes_test.rb",
+     "test/test_helper.rb"
   ]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/jjolma/lighthouse-release-notes}
@@ -26,7 +33,7 @@ Gem::Specification.new do |s|
   s.summary = %q{TODO}
   s.test_files = [
     "test/lighthouse-release-notes_test.rb",
-    "test/test_helper.rb"
+     "test/test_helper.rb"
   ]
 
   if s.respond_to? :specification_version then

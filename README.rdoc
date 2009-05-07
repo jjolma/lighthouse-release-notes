@@ -1,9 +1,24 @@
 = lighthouse-release-notes
 
-Usage:
-require 'rubygems'
-require 'lighthouse-release-notes'
-LighthouseReleaseNotes.generate :account => 'myproject, :email => 'jeff@animoto.com', :password => 'secret', :milestone => '5/7'
+== Dependencies
+  lighthouse-api gem
+  
+== Usage
+
+  require 'rubygems'
+  require 'lighthouse-release-notes'
+  LighthouseReleaseNotes.generate :account => 'myproject, :email => 'jeff@animoto.com', :password => 'secret', :milestone => '5/7'
+
+== Example output
+  State: resolved
+  Sign in link is misaligned in IE7 [#1001]
+  Add "merge accounts" featur [#1002]
+
+  State: open
+  Upload picture broken [#1004]
+
+  State: invalid
+  Can't log in from a Newton [#1003]
 
 
 == Copyright
