@@ -12,17 +12,18 @@ Release note generator for Lighthouse milestones
   LighthouseReleaseNotes.generate(:account => 'myproject,
                                   :email => 'jeff@animoto.com',
                                   :password => 'secret',
+                                  :project_id => 1234,          
                                   :milestone => '5/7')
 
 == Example output
-  State: resolved
+  Resolved
   - Sign in link is misaligned in IE7 [#1001]
-  - Add "merge accounts" featur [#1002]
+  - Add "merge accounts" feature [#1002]
 
-  State: open
+  Open
   - Upload picture broken [#1004]
 
-  State: invalid
+  Invalid
   - Can't log in from a Newton [#1003]
 
 
