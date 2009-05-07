@@ -1,6 +1,10 @@
 = lighthouse-release-notes
 
-Description goes here.
+Usage:
+require 'rubygems'
+require 'lighthouse-release-notes'
+LighthouseReleaseNotes.generate :account => 'myproject, :email => 'jeff@animoto.com', :password => 'secret', :milestone => '5/7'
+
 
 == Copyright
 

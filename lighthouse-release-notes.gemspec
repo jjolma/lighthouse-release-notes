@@ -15,7 +15,8 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     "README",
-     "VERSION"
+    "VERSION",
+    "lib/lighthouse-release-notes.rb"             
   ]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/jjolma/lighthouse-release-notes}
@@ -25,7 +26,7 @@ Gem::Specification.new do |s|
   s.summary = %q{TODO}
   s.test_files = [
     "test/lighthouse-release-notes_test.rb",
-     "test/test_helper.rb"
+    "test/test_helper.rb"
   ]
 
   if s.respond_to? :specification_version then
