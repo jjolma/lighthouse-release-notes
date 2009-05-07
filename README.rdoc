@@ -1,5 +1,7 @@
 = lighthouse-release-notes
 
+Release note generator for Lighthouse milestones
+
 == Dependencies
   lighthouse-api gem
   
@@ -7,7 +9,10 @@
 
   require 'rubygems'
   require 'lighthouse-release-notes'
-  LighthouseReleaseNotes.generate :account => 'myproject, :email => 'jeff@animoto.com', :password => 'secret', :milestone => '5/7'
+  LighthouseReleaseNotes.generate(:account => 'myproject,
+                                  :email => 'jeff@animoto.com',
+                                  :password => 'secret',
+                                  :milestone => '5/7')
 
 == Example output
   State: resolved
