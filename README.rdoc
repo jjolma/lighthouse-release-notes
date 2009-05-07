@@ -1,0 +1,7 @@
+= lighthouse-release-notes
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Jeff Jolma. See LICENSE for details.
