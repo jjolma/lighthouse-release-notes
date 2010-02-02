@@ -8,11 +8,13 @@ class LighthouseReleaseNotes
       Lighthouse.account = options[:account]
       Lighthouse.authenticate options[:email], options[:password]
       project = Lighthouse::Project.find options[:project_id]
+      puts "JPJ project: #{project.inspect}"
 
       tickets = []
       i = 1
       while true
-        ts = project.tickets(:q => "milestone:#{options[:milestone]}", :page => i)
+        q = "milestone:\"#{options[:milestone]}\""
+        ts = project.tickets(:q => q, :page => i)
         break if ts.size <= 0
         tickets << ts
         i = i + 1
